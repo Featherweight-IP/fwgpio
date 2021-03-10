@@ -1,0 +1,9 @@
+
+cocotb
+vlsim
+
+-e git+ssh://git@github.com/pybfms/pybfms.git#egg=pybfms
+-e git+ssh://git@github.com/pybfms/pybfms_gpio.git#egg=pybfms_gpio
+-e git+ssh://git@github.com/pybfms/pybfms_rv.git#egg=pybfms_rv
+-e git+ssh://git@github.com/fvutils/mkdv.git#egg=mkdv
+
