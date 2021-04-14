@@ -28,7 +28,7 @@ module fwgpio_wb #(
 		input[N_PINS-1:0]	pin_i,
 		output[N_PINS-1:0]	pin_oe
 		);
-	
+
 	`RV_ADDR_LINE_EN_WIRES(rv_, 4, 32);
 	
 	assign rv_valid = (rt_cyc && rt_stb);
